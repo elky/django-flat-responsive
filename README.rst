@@ -5,9 +5,10 @@ Description
 -----------
 
 **django-flat-responsive** is an extension for Django admin and
-`django-flat-theme <https://github.com/elky/django-flat-theme/>`_ that makes
-interface good for mobile and tablets. This app adds CSS file which contains
-specific media queries for mobile devices.
+`django-flat-theme <https://github.com/elky/django-flat-theme/>`_.
+This app adds CSS file which contains specific media queries for
+mobile devices, such as phones and tablets.
+
 
 Installation
 ------------
