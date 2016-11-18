@@ -66,3 +66,27 @@ Tested in:
 
 If you found any issues or want this app to support other browser versions -
 please report `here <https://github.com/elky/django-flat-responsive/issues/>`_.
+
+
+Screenshots
+~~~~~~~~~~~
+
+**Login page**
+
+|1|
+
+------------
+
+**Dashboard**
+
+|2|
+
+------------
+
+**Calendar widget**
+
+|3|
+
+.. |1| image:: https://cloud.githubusercontent.com/assets/209663/20430873/f001c6ee-adea-11e6-9695-df9957db09ce.png
+.. |2| image:: https://cloud.githubusercontent.com/assets/209663/20430878/f72836ce-adea-11e6-8517-ef6d2fddd241.png
+.. |3| image:: https://cloud.githubusercontent.com/assets/209663/20430883/fee78e00-adea-11e6-9bcb-8cac5a314094.png
