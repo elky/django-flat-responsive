@@ -48,6 +48,20 @@ Put ``flat_responsive`` app in your *INSTALLED\_APPS* **before** ``flat``:
      )
 
 
+Important note
+--------------
+⚠️ If you have your own custom ``base_site.html`` file, you need to add the following lines to it to make this app work:
+
+::
+
+     {% load admin_static %}
+     {% block blockbots %}
+       {{ block.super }}
+       <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+       <link rel="stylesheet" type="text/css" href="{% static 'admin/css/responsive.css' %}" />
+     {% endblock %}
+
+
 Compatibility
 ~~~~~~~~~~~~~
 
