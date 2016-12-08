@@ -65,7 +65,7 @@ Important note
 Compatibility
 ~~~~~~~~~~~~~
 
-Works in modern mobile browsers which support `CSS Flxebox <http://caniuse.com/#search=flexbox>`_.
+Works in modern mobile browsers which support `CSS Flexbox <http://caniuse.com/#search=flexbox>`_.
 
 
 Testing
