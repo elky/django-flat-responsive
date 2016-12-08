@@ -111,3 +111,4 @@ Screenshots
 .. |3| image:: https://cloud.githubusercontent.com/assets/209663/20430883/fee78e00-adea-11e6-9bcb-8cac5a314094.png
 .. |4| image:: http://elky.me/browserstack.svg
    :width: 200px
+   :target: http://browserstack.com/
