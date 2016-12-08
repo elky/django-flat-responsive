@@ -71,7 +71,12 @@ Works in modern mobile browsers which support `CSS Flxebox <http://caniuse.com/#
 Testing
 ~~~~~~~
 
-Tested in:
+Tested with:
+
+|4|
+
+
+Guaranteed works in:
 
 - iOS Safari 9+
 - Android Browser 4.4
@@ -104,3 +109,5 @@ Screenshots
 .. |1| image:: https://cloud.githubusercontent.com/assets/209663/20430873/f001c6ee-adea-11e6-9695-df9957db09ce.png
 .. |2| image:: https://cloud.githubusercontent.com/assets/209663/20430878/f72836ce-adea-11e6-8517-ef6d2fddd241.png
 .. |3| image:: https://cloud.githubusercontent.com/assets/209663/20430883/fee78e00-adea-11e6-9bcb-8cac5a314094.png
+.. |4| image:: http://elky.me/browserstack.svg
+   :width: 200px
