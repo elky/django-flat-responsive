@@ -392,6 +392,7 @@
   form .form-row p.datetime {
     margin-left: 0;
     padding-left: 0 !important;
+    width: 100%;
   }
 
   .datetime input, .form-row .datetime input.vDateField, .form-row .datetime input.vTimeField {
