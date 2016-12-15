@@ -59,6 +59,21 @@
     flex: 1 1;
   }
 
+  .stacked {
+    flex-wrap: wrap;
+    max-width: 490px;
+  }
+
+  .stacked > * {
+    flex: 0 0 100%;
+  }
+
+  .stacked .selector-chooser {
+    flex-basis: 50px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
   #changelist-search div {
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +135,29 @@
   .filtered #toolbar,
   .filtered div.xfull {
     margin-right: 240px;
+  }
+
+  html[dir="rtl"] #user-tools {
+    text-align: right;
+  }
+
+  html[dir="rtl"] #changelist .actions label {
+    padding-left: 10px;
+    padding-right: 0;
+  }
+
+  html[dir="rtl"] #changelist .actions select {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  html[dir="rtl"] .change-list .filtered .results,
+  html[dir="rtl"] .change-list .filtered .paginator,
+  html[dir="rtl"] .filtered #toolbar,
+  html[dir="rtl"] .filtered div.xfull,
+  html[dir="rtl"] .filtered .actions {
+    margin-right: 0;
+    margin-left: 240px;
   }
 }
 
@@ -223,6 +261,7 @@
   .object-tools {
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
     margin: 0 0 15px;
     float: none;
     width: 100%;
@@ -690,6 +729,7 @@
   .clockbox > * {
     position: relative;
     z-index: 1;
+    margin: 0 !important;
   }
 
   .calendarbox > div:first-child {
@@ -822,5 +862,48 @@
     display: block;
     padding: 8px 10px 8px 26px;
     background-position: 8px 9px;
+  }
+
+
+  /* RTL support */
+
+  html[dir="rtl"] .colMS {
+    margin-left: 0;
+  }
+
+  html[dir="rtl"] #content-related {
+    margin-left: 0;
+  }
+
+  html[dir="rtl"] .dashboard .module table td a {
+    padding-left: 0;
+    padding-right: 16px;
+  }
+
+  html[dir="rtl"] .change-list .filtered .results,
+  html[dir="rtl"] .change-list .filtered .paginator,
+  html[dir="rtl"] .filtered #toolbar,
+  html[dir="rtl"] .filtered div.xfull,
+  html[dir="rtl"] .filtered .actions {
+    margin-left: 0;
+  }
+
+  html[dir="rtl"] .inline-group ul.tools a.add,
+  html[dir="rtl"] .inline-group div.add-row a,
+  html[dir="rtl"] .inline-group .tabular tr.add-row td a {
+    padding: 8px 26px 8px 10px;
+    background-position: calc(100% - 8px) 9px;
+  }
+
+  html[dir="rtl"] .object-tools li + li {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  html[dir="rtl"] .aligned .add-another,
+  html[dir="rtl"] .aligned .related-lookup,
+  html[dir="rtl"] .aligned .datetimeshortcuts {
+    margin-left: 0;
+    margin-right: 15px;
   }
 }
