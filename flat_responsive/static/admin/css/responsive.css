@@ -100,8 +100,12 @@
   #changelist .actions {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 0;
-    margin-bottom: 15px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  #changelist .actions.selected {
+    border: none;
   }
 
   #changelist .actions label {
@@ -123,6 +127,14 @@
     flex: 1 0 100%;
     margin: 0;
     font-size: 11px;
+  }
+
+  #changelist .actions span.all,
+  #changelist .actions span.question,
+  #changelist .actions span.clear {
+    flex: 1 0 100%;
+    font-size: 11px;
+    margin-left: 0;
   }
 
   #changelist-filter {
@@ -292,7 +304,7 @@
   #changelist #toolbar {
     order: 1;
     padding: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 
   #changelist #toolbar form #searchbar {
