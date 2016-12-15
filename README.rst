@@ -63,13 +63,13 @@ Important note
 
 
 Compatibility
-~~~~~~~~~~~~~
+-------------
 
 Works in modern mobile browsers which support `CSS Flexbox <http://caniuse.com/#search=flexbox>`_.
 
 
 Testing
-~~~~~~~
+-------
 
 Tested with:
 
@@ -78,17 +78,18 @@ Tested with:
 
 Guaranteed works in:
 
-- iOS Safari 9+
-- Android Browser 4.4
-- Chrome for iOS 53
-- Chrome for Android 53
+- iOS Safari 7+
+- Android Browser 4.4+
+- Chrome for iOS 30+
+- Chrome for Android 30+
+- Windows Phone IE Mobile 11+
 
 If you found any issues or want this app to support other browser versions -
 please report `here <https://github.com/elky/django-flat-responsive/issues/>`_.
 
 
 Screenshots
-~~~~~~~~~~~
+-----------
 
 **Login page**
 
