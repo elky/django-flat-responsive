@@ -6,10 +6,10 @@ setup(
     version=__import__('flat_responsive').__version__,
     author='elky',
     author_email='mail@elky.me',
-    description=('An extension for Django admin that makes interface good for mobile and tablets.'),
+    description=('An extension for Django admin that makes interface mobile friendly.'),
     license='BSD',
     url='https://github.com/elky/django-flat-responsive',
-    download_url='https://github.com/elky/django-flat-responsive/tarball/1.0.0',
+    download_url='https://github.com/elky/django-flat-responsive/tarball/1.1.0',
     keywords=['django', 'admin', 'responsive', 'mobile', 'interface'],
     include_package_data=True,
     classifiers=[
