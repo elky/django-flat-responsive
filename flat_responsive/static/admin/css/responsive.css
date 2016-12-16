@@ -149,6 +149,10 @@
     margin-right: 240px;
   }
 
+  div.olMap[id] {
+    margin-bottom: 10px !important;
+  }
+
   html[dir="rtl"] #user-tools {
     text-align: right;
   }
@@ -874,6 +878,14 @@
     display: block;
     padding: 8px 10px 8px 26px;
     background-position: 8px 9px;
+  }
+
+
+  /* Gis */
+
+  div.olMap {
+    width: calc(100vw - 30px) !important;
+    height: 300px !important;
   }
 
 
