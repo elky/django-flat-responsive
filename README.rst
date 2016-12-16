@@ -82,6 +82,8 @@ Guaranteed works in:
 - Android Browser 4.4+
 - Chrome for iOS 30+
 - Chrome for Android 30+
+- Firefox for iOS 5.0+
+- Firefox for Android 50+
 - Windows Phone IE Mobile 11+
 
 If you found any issues or want this app to support other browser versions -
