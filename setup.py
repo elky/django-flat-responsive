@@ -9,7 +9,7 @@ setup(
     description=('An extension for Django admin that makes interface mobile friendly.'),
     license='BSD',
     url='https://github.com/elky/django-flat-responsive',
-    download_url='https://github.com/elky/django-flat-responsive/tarball/1.1.0',
+    download_url='https://github.com/elky/django-flat-responsive/tarball/1.2.0',
     keywords=['django', 'admin', 'responsive', 'mobile', 'interface'],
     include_package_data=True,
     classifiers=[
