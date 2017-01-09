@@ -632,6 +632,11 @@
     padding-bottom: 0 !important;
   }
 
+  form p.help, form div.help {
+    margin: 5px 0 0 !important;
+    padding: 0 !important;
+  }
+
 
   /* Footer */
 
