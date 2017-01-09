@@ -153,6 +153,22 @@
     margin-bottom: 10px !important;
   }
 
+  pre.literal-block {
+    padding: 10px;
+    overflow: auto;
+  }
+
+  table.model tbody th,
+  table.model tbody td {
+    font-size: 13px;
+    word-break: break-word;
+  }
+
+  table.model tbody th {
+    width: auto;
+  }
+
+
   html[dir="rtl"] #user-tools {
     text-align: right;
   }
