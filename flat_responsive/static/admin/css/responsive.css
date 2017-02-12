@@ -615,6 +615,22 @@
   }
 
 
+  /* Messages */
+
+  ul.messagelist li {
+    padding-left: 40px;
+    background-position: 15px 12px;
+  }
+
+  ul.messagelist li.error {
+    background-position: 15px 12px;
+  }
+
+  ul.messagelist li.warning {
+    background-position: 15px 14px;
+  }
+
+
   /* Forms */
 
   label {
