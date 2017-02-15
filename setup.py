@@ -1,15 +1,17 @@
 from setuptools import find_packages, setup
 
+VERSION = __import__('flat_responsive').__version__
+
 setup(
     name='django-flat-responsive',
     packages=find_packages(),
-    version=__import__('flat_responsive').__version__,
+    version=VERSION,
     author='elky',
     author_email='mail@elky.me',
     description=('An extension for Django admin that makes interface mobile friendly.'),
     license='BSD',
     url='https://github.com/elky/django-flat-responsive',
-    download_url='https://github.com/elky/django-flat-responsive/tarball/1.2.0',
+    download_url='https://github.com/elky/django-flat-responsive/tarball/' + VERSION,
     keywords=['django', 'admin', 'responsive', 'mobile', 'interface'],
     include_package_data=True,
     classifiers=[
