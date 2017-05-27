@@ -100,7 +100,7 @@
   #changelist .actions {
     display: flex;
     flex-wrap: wrap;
-    padding: 8px;
+    padding: 10px 0;
     margin-bottom: 10px;
   }
 
@@ -395,7 +395,8 @@
     margin-top: -5px;
   }
 
-  .aligned p.help {
+  .aligned p.help,
+  .aligned div.help {
     width: 100%;
   }
 
@@ -407,7 +408,8 @@
 
   .aligned .add-another,
   .aligned .related-lookup,
-  .aligned .datetimeshortcuts {
+  .aligned .datetimeshortcuts,
+  .aligned .related-lookup + strong {
     align-self: center;
     margin-left: 15px;
   }
@@ -480,7 +482,8 @@
     font-size: 13px;
   }
 
-  .aligned label + p:not(.help) {
+  .aligned label + p:not(.help),
+  .aligned label + div.readonly {
     padding: 0;
     margin-left: 0;
   }
@@ -853,6 +856,7 @@
   .inline-group[data-inline-type="stacked"] .inline-related {
     border: 2px solid #eee;
     border-radius: 4px;
+    margin-top: 15px;
     overflow: auto;
   }
 
