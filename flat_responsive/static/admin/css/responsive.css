@@ -283,6 +283,10 @@
     padding-right: 0;
   }
 
+  .module table.xfull {
+    width: 100%;
+  }
+
 
   /* Change List */
 
