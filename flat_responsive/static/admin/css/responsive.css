@@ -186,6 +186,7 @@ input[type="submit"], button {
     .form-row input[type=password],
     .form-row input[type=email],
     .form-row input[type=url],
+    .form-row input[type=tel],
     .form-row input[type=number],
     .form-row textarea,
     .form-row select,
