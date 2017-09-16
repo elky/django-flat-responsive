@@ -103,6 +103,8 @@ input[type="submit"], button {
     #changelist-search > div {
         display: -webkit-flex;
         display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
         max-width: 480px;
     }
 
