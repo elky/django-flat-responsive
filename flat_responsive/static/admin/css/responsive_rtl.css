@@ -45,9 +45,13 @@
         margin-left: 8px;
     }
 
+    [dir="rtl"] .object-tools li {
+        float: right;
+    }
+
     [dir="rtl"] .object-tools li + li {
-        margin-left: 15px;
-        margin-right: 0;
+        margin-left: 0;
+        margin-right: 15px;
     }
 
     [dir="rtl"] .dashboard .module table td a {
