@@ -59,6 +59,7 @@ Important note
        {{ block.super }}
        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
        <link rel="stylesheet" type="text/css" href="{% static 'admin/css/responsive.css' %}" />
+       <link rel="stylesheet" type="text/css" href="{% static "admin/css/responsive_rtl.css" %}" />
      {% endblock %}
 
 
@@ -66,6 +67,7 @@ Compatibility
 -------------
 
 Works in modern mobile browsers which support `CSS Flexbox <http://caniuse.com/#search=flexbox>`_.
+Older browser may experience varying levels of graceful degradation.
 
 
 Testing
@@ -78,7 +80,7 @@ Tested with:
 
 Guaranteed works in:
 
-- iOS Safari 7+
+- iOS Safari 9+
 - Android Browser 4.4+
 - Chrome for iOS 30+
 - Chrome for Android 30+
