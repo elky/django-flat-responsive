@@ -1,6 +1,10 @@
 Django Flat Responsive
 ======================
 
+**django-flat-responsive** is included as `part <https://github.com/django/django/commit/dc37e8846eeedc3a9100ca21fdc9d579bc534c89>`_ of Django from `version 2.0 <https://docs.djangoproject.com/en/dev/releases/2.0/#mobile-friendly-contrib-admin>`_! :tada:
+
+Use this app if your project is powered by an older Django version.
+
 Description
 -----------
 
